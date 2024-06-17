@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int rate,qty,amt,dis,bill_amt,gst,net_amt;
+	printf("enter rate=");
+	scanf("%d",rate);
+	printf("enter qty=");
+	scanf("%d",qty);
+	
+}

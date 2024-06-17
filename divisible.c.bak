@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+  float a;
+  printf("enter value of a =");
+  scanf("%f",&a);
+  if(a%5==0.0){
+  printf("a=%f is divisible by 5",a);}
+  else{
+  printf("a=%f is not divisible by 5",a);}
+  return 0;
+}

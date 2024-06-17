@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+
+{
+   
+   int a,n;
+   printf("enter number :");
+   scanf("%d",&n);
+   for(a=n;a>=1;a--){
+   printf("%d\t",a);}
+   return 0;
+}

@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+
+{
+   int number=65;
+   char word='A';
+   
+   printf("A=%d",word-32);
+
+   return 0;
+}

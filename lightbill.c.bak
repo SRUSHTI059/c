@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main()
+
+{
+   float a,total=0,charged_amt;
+   printf("enter customer units =");
+   scanf("%f",&a);
+   if(a<=100){
+	total=a*0.60+50;   
+	}
+	else if(100<a && a<=200)
+	{
+	total=a*0.80+50;   
+	}
+	else if(200<a && a<=300)
+	{
+	total=a*0.90+50;   
+	}else
+	{
+		printf("bill fail");
+	}	
+if(total>=300){
+    charged_amt=total*15/100+total;
+}else{
+    printf("charged_amt:%f",charged_amt); 
+}  	
+   return 0;
+}	
+	

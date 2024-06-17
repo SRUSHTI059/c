@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+
+{
+   int ascii;
+   char word;
+   printf("enter character :");
+   scanf("%c",&word);
+   if(word>=65 && word<=90){
+   printf("%c = %c",word,word+32);}
+   else{
+   printf("%c = %c",word,word-32);}
+   return 0;
+}
